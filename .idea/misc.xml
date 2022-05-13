@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/NoBel/No_Bel(gitHub)/AnimationMotionLayout/app/src/main/res/drawable/green_circle_foreground.xml" value="0.2075" />
+        <entry key="..\:/NoBel/No_Bel(gitHub)/AnimationMotionLayout/app/src/main/res/drawable/ic_green_circle.xml" value="0.2485" />
+        <entry key="..\:/NoBel/No_Bel(gitHub)/AnimationMotionLayout/app/src/main/res/drawable/ic_home.xml" value="0.3675" />
+        <entry key="..\:/NoBel/No_Bel(gitHub)/AnimationMotionLayout/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3675" />
+        <entry key="..\:/NoBel/No_Bel(gitHub)/AnimationMotionLayout/app/src/main/res/drawable/ic_out_circle.xml" value="0.2485" />
+        <entry key="..\:/NoBel/No_Bel(gitHub)/AnimationMotionLayout/app/src/main/res/drawable/ic_person.xml" value="0.3675" />
+        <entry key="..\:/NoBel/No_Bel(gitHub)/AnimationMotionLayout/app/src/main/res/drawable/ic_setting.xml" value="0.3675" />
+        <entry key="..\:/NoBel/No_Bel(gitHub)/AnimationMotionLayout/app/src/main/res/layout/activity_bottom_to_top.xml" value="0.36666666666666664" />
+        <entry key="..\:/NoBel/No_Bel(gitHub)/AnimationMotionLayout/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/NoBel/No_Bel(gitHub)/AnimationMotionLayout/app/src/main/res/layout/activity_motion_layout.xml" value="0.33" />
+        <entry key="..\:/NoBel/No_Bel(gitHub)/AnimationMotionLayout/app/src/main/res/layout/bottom_layout_value_animation.xml" value="0.22" />
+        <entry key="..\:/NoBel/No_Bel(gitHub)/AnimationMotionLayout/app/src/main/res/layout/dada.xml" value="0.36666666666666664" />
+        <entry key="..\:/NoBel/No_Bel(gitHub)/AnimationMotionLayout/app/src/main/res/layout/demo_layout.xml" value="0.36666666666666664" />
+        <entry key="..\:/NoBel/No_Bel(gitHub)/AnimationMotionLayout/app/src/main/res/layout/gif_layout.xml" value="0.327445652173913" />
+        <entry key="..\:/NoBel/No_Bel(gitHub)/AnimationMotionLayout/app/src/main/res/layout/lottie_animation.xml" value="0.327445652173913" />
+        <entry key="..\:/NoBel/No_Bel(gitHub)/AnimationMotionLayout/app/src/main/res/layout/value_animation_layout.xml" value="0.33" />
+        <entry key="..\:/NoBel/No_Bel(gitHub)/AnimationMotionLayout/app/src/main/res/menu/my_nav.xml" value="0.36666666666666664" />
+        <entry key="..\:/NoBel/No_Bel(gitHub)/AnimationMotionLayout/app/src/main/res/mipmap-anydpi-v26/green_circle.xml" value="0.2075" />
+        <entry key="..\:/NoBel/No_Bel(gitHub)/AnimationMotionLayout/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.3675" />
+        <entry key="..\:/NoBel/No_Bel(gitHub)/AnimationMotionLayout/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.196" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

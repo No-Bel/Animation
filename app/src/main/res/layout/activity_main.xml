@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/motionLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layoutDescription="@xml/activity_main_scene2"
+    >
+
+
+    <ImageView
+        android:id="@+id/our_Img2"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/img" />
+
+    <TextView
+        android:id="@+id/title_tv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="24dp"
+        android:text="@string/bla_bla_bla_bla_bla_la"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/our_Img2" />
+
+    <ScrollView
+        android:id="@+id/my_scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="24dp"
+        app:layout_constraintTop_toBottomOf="@+id/title_tv2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/to_move_reveal_or_hide_views_within_the_current_layout_you_can_use_the_property_animation_system_provided_by_the_android_animation_package_available_in_android_3_0_api_level_11_and_higher_these_apis_update_the_properties_of_your_view_objects_over_a_period_of_time_continuously_redrawing_the_view_as_the_properties_change_for_example_when_you_change_the_position_properties_the_view_moves_across_the_screen_or_when_you_change_the_alpha_property_the_view_fades_in_or_out_to_create_these_animations_with_the_least_amount_of_effort_you_can_enable_animations_on_your_layout_so_that_when_you_simply_change_the_visibility_of_a_view_an_animation_applies_automatically_for_more_information_see_auto_animate_layout_updates_to_learn_how_to_build_animations_with_the_property_animation_system_read_the_property_animation_overview_or_see_the_following_pages_to_create_common_animations_to_move_reveal_or_hide_views_within_the_current_layout_you_can_use_the_property_animation_system_provided_by_the_android_animation_package_available_in_android_3_0_api_level_11_and_higher_these_apis_update_the_properties_of_your_view_objects_over_a_period_of_time_continuously_redrawing_the_view_as_the_properties_change_for_example_when_you_change_the_position_properties_the_view_moves_across_the_screen_or_when_you_change_the_alpha_property_the_view_fades_in_or_out_to_create_these_animations_with_the_least_amount_of_effort_you_can_enable_animations_on_your_layout_so_that_when_you_simply_change_the_visibility_of_a_view_an_animation_applies_automatically_for_more_information_see_auto_animate_layout_updates_to_learn_how_to_build_animations_with_the_property_animation_system_read_the_property_animation_overview_or_see_the_following_pages_to_create_common_animations_to_move_reveal_or_hide_views_within_the_current_layout_you_can_use_the_property_animation_system_provided_by_the_android_animation_package_available_in_android_3_0_api_level_11_and_higher_these_apis_update_the_properties_of_your_view_objects_over_a_period_of_time_continuously_redrawing_the_view_as_the_properties_change_for_example_when_you_change_the_position_properties_the_view_moves_across_the_screen_or_when_you_change_the_alpha_property_the_view_fades_in_or_out_to_create_these_animations_with_the_least_amount_of_effort_you_can_enable_animations_on_your_layout_so_that_when_you_simply_change_the_visibility_of_a_view_an_animation_applies_automatically_for_more_information_see_auto_animate_layout_updates_to_learn_how_to_build_animations_with_the_property_animation_system_read_the_property_animation_overview_or_see_the_following_pages_to_create_common_animations_to_move_reveal_or_hide_views_within_the_current_layout_you_can_use_the_property_animation_system_provided_by_the_android_animation_package_available_in_android_3_0_api_level_11_and_higher_these_apis_update_the_properties_of_your_view_objects_over_a_period_of_time_continuously_redrawing_the_view_as_the_properties_change_for_example_when_you_change_the_position_properties_the_view_moves_across_the_screen_or_when_you_change_the_alpha_property_the_view_fades_in_or_out_to_create_these_animations_with_the_least_amount_of_effort_you_can_enable_animations_on_your_layout_so_that_when_you_simply_change_the_visibility_of_a_view_an_animation_applies_automatically_for_more_information_see_auto_animate_layout_updates_to_learn_how_to_build_animations_with_the_property_animation_system_read_the_property_animation_overview_or_see_the_following_pages_to_create_common_animations_to_move_reveal_or_hide_views_within_the_current_layout_you_can_use_the_property_animation_system_provided_by_the_android_animation_package_available_in_android_3_0_api_level_11_and_higher_these_apis_update_the_properties_of_your_view_objects_over_a_period_of_time_continuously_redrawing_the_view_as_the_properties_change_for_example_when_you_change_the_position_properties_the_view_moves_across_the_screen_or_when_you_change_the_alpha_property_the_view_fades_in_or_out_to_create_these_animations_with_the_least_amount_of_effort_you_can_enable_animations_on_your_layout_so_that_when_you_simply_change_the_visibility_of_a_view_an_animation_applies_automatically_for_more_information_see_auto_animate_layout_updates_to_learn_how_to_build_animations_with_the_property_animation_system_read_the_property_animation_overview_or_see_the_following_pages_to_create_common_animations" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.motion.widget.MotionLayout>
