@@ -5,17 +5,14 @@ import android.animation.AnimatorSet
 import android.animation.ObjectAnimator
 import android.animation.ValueAnimator
 import android.os.Bundle
-import android.os.PersistableBundle
-import android.view.animation.AccelerateInterpolator
 import android.view.animation.LinearInterpolator
 import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.example.animationmotionlayout.databinding.ValueAnimationLayoutBinding
-import kotlinx.android.synthetic.main.bottom_layout_value_animation.*
 import kotlinx.android.synthetic.main.value_animation_layout.*
 
-class ValueAnimationPlainDuration: AppCompatActivity() {
+class ValueAnimationPlainDuration : AppCompatActivity() {
 
     private lateinit var binding: ValueAnimationLayoutBinding
 
@@ -42,8 +39,9 @@ class ValueAnimationPlainDuration: AppCompatActivity() {
 
     private fun clickOnIcon() {
         binding.iconPlane.setOnClickListener {
-            airplaneIconValueAnimation()
-            backToStartPosition()
+//            airplaneIconValueAnimation()
+//            backToStartPosition()
+            animatorSet()
 //            animationListener()
         }
 
@@ -105,6 +103,23 @@ class ValueAnimationPlainDuration: AppCompatActivity() {
         anim.start()
     }
 
+    private fun animatorSet() {
+        AnimatorSet().apply {
+////            playSequentially(
+//                ObjectAnimator.ofFloat(binding.iconPlane, "translationY", 0f, -screenHeight),
+//                ObjectAnimator.ofFloat(binding.incBtn, "translationY", 0f, -screenHeight)
+////            )
+            playTogether(ObjectAnimator.ofFloat(binding.iconPlane, "translationY", 0f, -screenHeight),
+                ObjectAnimator.ofFloat(binding.incBtn, "translationY", 0f, -screenHeight))
+
+            duration = 1000
+            start()
+        }
+    }
+
+
+
+    /** Object Animation */
     private fun airplaneIconObjectAnimation() {
         ObjectAnimator.ofFloat(binding.iconPlane, "translationY", 0f, -screenHeight).apply {
             duration = 1000
@@ -145,12 +160,20 @@ class ValueAnimationPlainDuration: AppCompatActivity() {
             }
             addListener(object : Animator.AnimatorListener {
                 override fun onAnimationStart(p0: Animator?) {
-                    Toast.makeText(this@ValueAnimationPlainDuration, "make airplane fly", Toast.LENGTH_SHORT)
+                    Toast.makeText(
+                        this@ValueAnimationPlainDuration,
+                        "make airplane fly",
+                        Toast.LENGTH_SHORT
+                    )
                         .show()
                 }
 
                 override fun onAnimationEnd(p0: Animator?) {
-                    Toast.makeText(this@ValueAnimationPlainDuration, "airplane in Tbilisi", Toast.LENGTH_SHORT)
+                    Toast.makeText(
+                        this@ValueAnimationPlainDuration,
+                        "airplane in Tbilisi",
+                        Toast.LENGTH_SHORT
+                    )
                         .show()
                 }
 

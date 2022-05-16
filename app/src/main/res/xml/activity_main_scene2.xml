@@ -12,10 +12,10 @@
                motion:motionTarget="@+id/our_Img2"
                motion:framePosition="100"
                android:alpha="0" />
-           <KeyAttribute
-               motion:motionTarget="@+id/our_Img2"
-               motion:framePosition="50"
-               android:alpha="0" />
+<!--           <KeyAttribute-->
+<!--               motion:motionTarget="@+id/our_Img2"-->
+<!--               motion:framePosition="50"-->
+<!--               android:alpha="0" />-->
            <KeyAttribute
                motion:motionTarget="@+id/our_Img2"
                motion:framePosition="100"

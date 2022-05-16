@@ -5,10 +5,10 @@
     android:layout_height="match_parent">
 
 
-    <pl.droidsonroids.gif.GifImageView
+    <pl.droidsonroids.gif.GifImageButton
         android:layout_width="match_parent"
         android:layout_height="300dp"
-        android:src="@drawable/my_gif"
+        android:src="@drawable/ra"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
